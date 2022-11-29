@@ -1,11 +1,8 @@
 package com.herb.springsecuritydemo.controller;
 
 import com.herb.springsecuritydemo.dto.request.AdminRequestDTO;
-import com.herb.springsecuritydemo.dto.request.UserRequestDTO;
 import com.herb.springsecuritydemo.dto.response.AdminResponseDTO;
-import com.herb.springsecuritydemo.dto.response.UserResponseDTO;
 import com.herb.springsecuritydemo.service.AdminService;
-import com.herb.springsecuritydemo.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

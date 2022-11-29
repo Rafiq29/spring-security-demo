@@ -1,7 +1,6 @@
 package com.herb.springsecuritydemo.entity;
 
 import lombok.*;
-import org.hibernate.annotations.DynamicInsert;
 
 import javax.persistence.*;
 
@@ -11,7 +10,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Builder
 @Table(name = "users_new")
-public class User {
+public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
