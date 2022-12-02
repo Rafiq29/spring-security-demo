@@ -1,7 +1,9 @@
 package com.herb.springsecuritydemo.entity;
 
-import lombok.*;
-import org.hibernate.annotations.DynamicInsert;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
