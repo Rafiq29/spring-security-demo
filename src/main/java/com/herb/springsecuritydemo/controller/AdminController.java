@@ -16,7 +16,8 @@ public class AdminController {
     private final AdminService service;
 
     @PostMapping
-    public String add(@RequestBody AdminRequestDTO requestDTO) {
+    public String add(@RequestHeader("Authorization") String auth,@RequestBody AdminRequestDTO requestDTO) {
+        System.out.println(auth);
         service.addAdmin(requestDTO);
         return "User created!";
     }
